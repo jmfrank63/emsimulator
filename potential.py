@@ -17,6 +17,7 @@ class ChargedParticle:
     def position(self, value):
         self.__position = value
 
+    @property
     def charge(self):
         return self.__charge
 
